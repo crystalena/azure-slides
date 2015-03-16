@@ -1,0 +1,134 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Insight Blogs migration to AZURE hosting
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 Insight Blogs migration to AZURE hosting
+      
+      section
+        img(src='images/insight-logo.jpg')
+        h2 NZ
+        img(
+          src='images/copy.png',
+          style='height:100px; margin-bottom:10px'
+        )
+        img(src='images/insight-logo.jpg')
+        h2 AU
+
+      section
+        h2 Plan
+        h3.bullet
+        ul
+          li Make the changes to the code
+          li Migrate articles
+          li Host
+          li Support
+
+      section
+        h2 Code changes
+        img(src='images/code.png')
+
+      section
+        h2 Articles migration
+        img(
+          src='images/expressionengine_logo.png',
+          style='height:100px; margin:10px'
+        )
+        h2 NZ
+        img(
+          src='images/copy.png',
+          style='height:100px; margin-bottom:10px'
+        )
+        img(
+          src='images/expressionengine_logo.png',
+          style='height:100px; margin:10px'
+        )
+        h2 AU
+
+      section
+        h2 Hosting
+        img(
+          src='images/host.png',
+          style='height:150px'
+        )
+        img(src='images/confused-man-small.png', style='height:100px;')
+        
+      section
+        h2 Support
+        img(src='images/nodejitsu_love_github.png')
+        pre
+          code.language-javascript.
+            git push origin master
+
+      section
+        h2 Reality
+        img(src='images/reality.jpg')
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 Environment issues
+        img(src='images/lamp_wamp_mamp.gif', style='height:200px')
+
+      section
+        h2.bullet Blog setup
+        br
+        ul
+          li Symbolic links
+          li Custom config
+          li Third party EE plugins
+          
+      section
+        h2.bullet Dev Setup
+        br
+        ul
+          li Hack #1 - Virtual host custom directories (thanks to Brandon Kenna & Pete Mescalchin)
+          li Hack #2 - Vagrant EE setup (thanks to Matt Fellows)
+          li Hack #3 - Virtual directories on Azure
+
+      section
+        h2 Production Setup
+        img(src='images/win_azure.png')
+        
+      section
+        h2 Platform as a Service - PaaS
+        p PaaS is the self-service enabled compute service that provisions computing resources in terms of CPU, memory and volatile disk storage through resource descriptors provided at the deployment time.
+        h3.bullet PaaS Advantages
+        br
+        ul
+          li Business: Low Total Cost of Ownership
+          li Business: Accelerates Innovation
+          li Technology: Better Development Operations
+          li Technology: Mitigates Vulnerability Risks
+      
+      section
+        h2 Azure web.config
+        img(src='images/htaccess-web.png', style='height:300px')
+
+      section
+        h2 Azure MySql
+        img(src='images/DB1.png', style='height:200px')
+        
+      section
+        h2.bullet Additional Tasks
+        br
+        ul
+          li Purchase the new EE license
+          li Change the Google Analytics tracking details
+          li Omniture - still needs to implemented
+        
+      section
+        img(src='images/wedidit.png', style='height:300px')
+
+      section
+        h3 Questions?
+        img(src='images/Thank-You.png')
+        
+    script(src='build/build.js')
